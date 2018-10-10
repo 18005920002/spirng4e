@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Description:
- * @Auther: win10
- * @Date: 2018/10/5 10:45
+ * Description:
+ * @author win10
+ * @version 1.0 2018/10/5 10:45
  */
 
 @Configuration

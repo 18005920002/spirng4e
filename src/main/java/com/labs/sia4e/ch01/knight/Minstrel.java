@@ -3,9 +3,9 @@ package com.labs.sia4e.ch01.knight;
 import java.io.PrintStream;
 
 /**
- * @Description:
- * @Auther: win10
- * @Date: 2018/10/5 11:17
+ * Description:
+ * @author win10
+ * @version 1.0 2018/10/5 11:17
  */
 public class Minstrel {
 

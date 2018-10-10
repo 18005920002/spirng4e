@@ -4,9 +4,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
- * @Description:
- * @Auther: win10
- * @Date: 2018/10/5 10:55
+ * Description:
+ * @author win10
+ * @version 1.0 2018/10/5 10:55
  */
 public class KnightMain {
     public static void main(String[] args) {

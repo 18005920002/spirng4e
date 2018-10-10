@@ -8,7 +8,7 @@ import static org.mockito.Mockito.verify;
 
 /**
  * @version v0.1 2018/10/9 13:19
- * @auther win10
+ * @author win10
  */
 public class BraveKnightTest {
     @Test
