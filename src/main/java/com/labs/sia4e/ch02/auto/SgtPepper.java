@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SgtPepper implements CompactDisc {
+
     private String title="Track name";
     private String artist = "Sgt Pepper";
 

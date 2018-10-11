@@ -1,5 +1,8 @@
 package com.labs.sia4e.ch02.auto;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 /**
  * Title CDPlayer.java
  * Description 表示CD播放器
@@ -7,5 +10,18 @@ package com.labs.sia4e.ch02.auto;
  * @author win10
  * @version v1.0 2018/10/10 10:41
  */
-public class CDPlayer {
+@Component
+public class CDPlayer implements MediaPlayer{
+
+    private CompactDisc cd;
+
+    @Autowired
+    public CDPlayer(CompactDisc cd){
+        this.cd = cd;
+    }
+
+    @Override
+    public void play() {
+        cd.play();
+    }
 }
