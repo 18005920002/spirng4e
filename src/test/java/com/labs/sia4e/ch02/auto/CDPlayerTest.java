@@ -15,8 +15,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @version v1.0 2018/10/10 15:56
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = CDPlayerConfig.class)
+//@ContextConfiguration(classes = CDPlayerConfig.class) //组件扫描方式
+@ContextConfiguration(classes = WiringConfig.class)     //Java配置类显式配置
 public class CDPlayerTest {
+
     @Autowired
     private CompactDisc cd;
 

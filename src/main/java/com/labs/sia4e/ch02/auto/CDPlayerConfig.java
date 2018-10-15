@@ -11,6 +11,6 @@ import org.springframework.context.annotation.Configuration;
  * @version v1.0 2018/10/10 15:51
  */
 @Configuration
-@ComponentScan
+@ComponentScan  //启用自动扫描
 public class CDPlayerConfig {
 }
