@@ -1,5 +1,6 @@
 package com.test;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -33,5 +34,8 @@ public class Test {
                 return result;
             }
         });
+        /*Double p = null;
+        BigDecimal x = BigDecimal.valueOf(p);
+        System.out.println(x);*/
     }
 }

@@ -1,7 +1,7 @@
 package com.labs.sia4e.ch02.auto;
 
 /**
- * Title CompactDisc.java
+ * CompactDisc.java
  * Description 表示一张CD接口
  *
  * @author win10
