@@ -28,7 +28,7 @@ public class WiringConfig {
 
     @Bean //使用该方式可以不用引用getSgtPepper()方法
     MediaPlayer getPlayerWithParam(CompactDisc cd){
-        System.out.println("AUTO WREING - getPlayerWithParam()");
+        System.out.println("AUTO WIREING - getPlayerWithParam()");
         return new CDPlayer(cd);
     }
 }
