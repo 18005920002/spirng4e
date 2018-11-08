@@ -20,14 +20,15 @@ public class WiringConfig {
         return new SgtPepper();
     }
 
-    /*@Bean
+    /*@Bean //与getPlayerWithParam()方法效果一样，二者只能存在一个
     MediaPlayer getPlayer(){
         return new CDPlayer(getSgtPepper());
     }*/
 
 
-    @Bean
+    @Bean //使用该方式可以不用引用getSgtPepper()方法
     MediaPlayer getPlayerWithParam(CompactDisc cd){
+        System.out.println("AUTO WREING - getPlayerWithParam()");
         return new CDPlayer(cd);
     }
 }
