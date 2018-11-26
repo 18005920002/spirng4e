@@ -1,5 +1,6 @@
 package com.labs.sia4e.ch04.aop.concert;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -25,13 +26,15 @@ public class Audience {
 
     //有效
     //@Before("execution(* com.labs.sia4e.ch04.aop.concert.Performance.perform(..))")
-    @Before("point()")
+
     /**
      * 前置通知
      */
+    @Before("point()")
     public void silenceCellPhone(){
         System.out.println("silence Cell Phone ...");
     }
+
     /**
      * 前置通知
      */
@@ -53,5 +56,21 @@ public class Audience {
     public void demandRefund(){
         System.out.println("demand Refund ...");
     }
+
+    /**
+     * 环绕通知
+     * @param joinPoint
+     */
+    /*@Around("point()")
+    public void watchPerformance(ProceedingJoinPoint joinPoint){
+        try {
+            System.out.println("2. silence Cell Phone ...");
+            System.out.println("2. take Seats ...");
+            joinPoint.proceed();
+            System.out.println("2. CLAP CLAP CLAP ...");
+        } catch (Throwable throwable) {
+            System.out.println("2. demand Refund ...");
+        }
+    }*/
 
 }
