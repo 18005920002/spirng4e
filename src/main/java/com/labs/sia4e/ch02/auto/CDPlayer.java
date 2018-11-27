@@ -4,8 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * Title CDPlayer.java
- * Description 表示CD播放器
+ * 表示CD播放器
  *
  * @author win10
  * @version v1.0 2018/10/10 10:41

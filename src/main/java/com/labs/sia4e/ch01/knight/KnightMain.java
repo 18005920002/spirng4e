@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
- * Description:
+ * 应用的主方法入口
  * @author win10
  * @version 1.0 2018/10/5 10:55
  */

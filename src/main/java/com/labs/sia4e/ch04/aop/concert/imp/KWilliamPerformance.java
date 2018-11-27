@@ -4,7 +4,7 @@ import com.labs.sia4e.ch04.aop.concert.Performance;
 import org.springframework.stereotype.Component;
 
 /**
- * 音乐会实现类
+ * K.William 的音乐会实现类
  *
  * @author win10
  * @version v1.0 2018/11/23 11:50

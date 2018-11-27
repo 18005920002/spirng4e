@@ -3,8 +3,7 @@ package com.labs.sia4e.ch02.auto;
 import org.springframework.stereotype.Component;
 
 /**
- * Title
- * Description
+ * SgtPepper专辑，CD的实例
  *
  * @author win10
  * @version v1.0 2018/10/10 11:08

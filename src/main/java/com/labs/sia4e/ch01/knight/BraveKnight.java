@@ -1,7 +1,7 @@
 package com.labs.sia4e.ch01.knight;
 
 /**
- * Description: 骑士类
+ * 骑士类
  *
  * @author win10
  * @version  2018/10/4 22:29
