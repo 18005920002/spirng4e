@@ -7,5 +7,8 @@ package com.labs.sia4e.ch02.auto;
  * @version v1.0 2018/10/10 10:37
  */
 public interface CompactDisc {
+
     void play();
+
+    void playTrack(int trackNumber);
 }
